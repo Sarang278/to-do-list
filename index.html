@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ec9f12eed0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main class="m-con">
+
+        <h1 style="color: white;text-shadow: 1px 2px black;">My To Do List</h1>
+        <form>
+            <label for="inp">Enter your task: </label>
+            <input type="text" id="inp" placeholder="Enter your task">
+            <button type="button" id="but" onclick="add()">Add task</button>
+        </form>
+        <section class="div-list">
+            <div id="box1" class="status-p">
+                <div class="list">
+                    <h1>Pending Tasks:</h1>
+                </div>
+            </div>
+            <div id="box2" class="status-c">
+                <div class="list">
+                    <h1>Completed Tasks:</h1>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
